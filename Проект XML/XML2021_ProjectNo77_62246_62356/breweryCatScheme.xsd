@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="breweriesInBG">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="breweryList" maxOccurs="1">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="brewery" maxOccurs="unbounded">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="breweryInformation">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element name="name" type="xs:string"/>
+                                                    <xs:element name="location" type="xs:string"/>
+						    <xs:element name="id" type="xs:integer"/>
+						    <xs:element name="beertype" type="xs:string"/>
+						    <xs:element name="beertypeId" type="xs:integer"/>
+		     			            <xs:element name="region" type="xs:string"/>
+				  		    <xs:element name="regionId" type="xs:integer"/>
+                                                    <xs:element name="telephone" type="xs:string"/>
+                                                    <xs:element name="telephoneExtra" type="xs:string" minOccurs="0"/>
+						    <xs:element name="year" type="xs:integer"/>
+						    <xs:element name="beerRange" type="xs:integer" minOccurs="0"/>
+                                                    <xs:element name="site" minOccurs="0">
+							<xs:complexType>
+								<xs:simpleContent>
+									<xs:extension base="xs:string">
+										<xs:attribute ref="href" use="optional"/>
+									</xs:extension>
+								</xs:simpleContent>
+							</xs:complexType>
+						    </xs:element>
+                                                </xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
+                                        <xs:element name="beerList">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element name="beer" type="xs:string" maxOccurs="unbounded"/>
+                                                </xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="beertypeList" maxOccurs="1">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="beertypeInfo" maxOccurs="unbounded">
+                                <xs:complexType>
+                                    <xs:sequence>
+					<xs:element name="beertypeName" type="xs:string"/>
+                                        <xs:element name="type" maxOccurs="1">
+                                             <xs:complexType>
+						<xs:simpleContent>
+						 <xs:extension base="xs:string">
+						   <xs:attribute type="xs:string" name="typeRef" />
+						   <xs:attribute type="xs:integer" name="typeIdRef" />
+						 </xs:extension>
+						</xs:simpleContent>
+					     </xs:complexType>
+                                        </xs:element>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+		<xs:element name="regionList" maxOccurs="1">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="regionInfo" maxOccurs="unbounded">
+                                <xs:complexType>
+                                    <xs:sequence>
+					<xs:element name="regionName" type="xs:string"/>
+                                        <xs:element name="reg" maxOccurs="1">
+                                             <xs:complexType>
+						<xs:simpleContent>
+						  <xs:extension base="xs:string">
+							<xs:attribute type="xs:string" name="regRef" />
+							<xs:attribute type="xs:integer" name="regIdRef" />
+						  </xs:extension>
+						</xs:simpleContent>
+					    </xs:complexType>
+                                        </xs:element>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+        <xs:key name="beertypeKey">
+            <xs:selector xpath="breweriesInBG/breweryList/brewery/breweryInformation"/>
+            <xs:field xpath="beertype"/>
+            <xs:field xpath="beertypeId"/>
+        </xs:key>
+        <xs:keyref name="typeRef" refer="beerKey">
+            <xs:selector xpath="breweriesInBG/beertypeList/beertypeInfo/type"/>
+            <xs:field xpath="@typeRef"/>
+            <xs:field xpath="@typeIdRef"/>
+        </xs:keyref>
+	<xs:key name="regionKey">
+            <xs:selector xpath="breweriesInBG/breweryList/brewery/breweryInformation"/>
+            <xs:field xpath="region"/>
+            <xs:field xpath="regionId"/>
+        </xs:key>
+        <xs:keyref name="regionRef" refer="regionKey">
+            <xs:selector xpath="breweriesInBG/regionList/regionInfo/reg"/>
+            <xs:field xpath="@regRef"/>
+            <xs:field xpath="@regIdRef"/>
+        </xs:keyref>
+    </xs:element>
+</xs:schema>

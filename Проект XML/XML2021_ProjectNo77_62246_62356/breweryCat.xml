@@ -1,0 +1,373 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="breweryCatXslt.xsl"?>
+<breweriesInBG xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="breweryCatScheme.xsd">
+	<breweryList>
+		<brewery>
+				<breweryInformation>
+					 <name>Бирария Халбите</name>
+					 <location>София</location>
+					 <id>1</id>
+					 <beertype>Крафт Бира</beertype>
+					 <beertypeId>2</beertypeId>
+					 <region>Югозападен регион</region>
+					 <regionId>206</regionId>
+					 <telephone>0878 737 786</telephone>
+					 <telephoneExtra>02 9804147</telephoneExtra>
+					 <year>2000</year>
+					 <beerRange>103</beerRange>
+					 <site href="https://halbite.com/">www.halbite.com</site>
+				</breweryInformation>
+				<beerList>
+					<beer>Хакер пшор</beer>
+					<beer>Вайнщефан хелес</beer>
+					<beer>Бернард</beer>
+					<beer>Тухер</beer>
+					<beer>Грефенщайнер</beer>
+					<beer>Бохемиа регент</beer>
+					<beer>Приматор премиум</beer>
+					<beer>Радебергер</beer>
+					<beer>Шленкерла вайс</beer>
+					<beer>Кромбахер</beer>
+					<beer>Шнайдер хопфенвайс</beer>
+					<beer>Вайсър хазе</beer>
+					<beer>Ердингер</beer>
+					<beer>Пауланер</beer>
+					<beer>Хакер пшор</beer>
+					<beer>Клостер допелбок</beer>
+				</beerList>
+		 </brewery>
+		 <brewery>
+				<breweryInformation>
+					 <name>Бирария Дондуков</name>
+					 <location>София</location>
+					 <id>2</id>
+					 <beertype>Крафт Бира</beertype>
+					 <beertypeId>2</beertypeId>
+					 <region>Югозападен регион</region>
+					 <regionId>206</regionId>
+					 <telephone>0887243979</telephone>
+					 <telephoneExtra>0886439050</telephoneExtra>
+					 <year>2003</year>
+					 <beerRange>109</beerRange>
+					 <site href="https://dondukov.com/">www.dondukov.com</site>
+				</breweryInformation>
+				<beerList>
+					<beer>Афлигем трипъл</beer>
+					<beer>Конрад гепард</beer>
+					<beer>Бакалар тъмна</beer>
+					<beer>Черновар тъмна</beer>
+					<beer>Трипъл кармелиет</beer>
+					<beer>Пауранер вайс</beer>
+					<beer>Хакер вайс</beer>
+					<beer>Варщейнер</beer>
+					<beer>Хубертос</beer>
+					<beer>Конопена бира</beer>
+					<beer>Афлигем дубъл</beer>
+					<beer>Аугсбургер</beer>
+					<beer>Гларус инглиш ейл</beer>
+					<beer>Дювел трипъл хоп</beer>
+				</beerList>
+		 </brewery>
+		 <brewery>
+				<breweryInformation>
+					 <name>Бирария Пожарната</name>
+					 <location>Пловдив</location>
+					 <id>3</id>
+					 <beertype>Крафт Бира</beertype>
+					 <beertypeId>2</beertypeId>
+					 <region>Южен централен регион</region>
+					 <regionId>205</regionId>
+					 <telephone>0894515334</telephone>
+					 <telephoneExtra>032 634192</telephoneExtra>
+					 <year>1999</year>
+					 <site href="http://birariapojarnata.com/">www.birariapojarnata.com</site>
+				</breweryInformation>
+				<beerList>
+					<beer>Корона</beer>
+					<beer>Гинес</beer>
+					<beer>Хюгардън</beer>
+					<beer>Лефе блонд</beer>
+					<beer>Лефе тъмно</beer>
+					<beer>Стронгбоу</beer>
+					<beer>Блайнд пиг</beer>
+					<beer>Амстел</beer>
+					<beer>Карлсберг</beer>
+					<beer>Хайнекен</beer>
+				</beerList>
+		 </brewery>
+		 <brewery>
+				<breweryInformation>
+					 <name>Пивоварната</name>
+					 <location>Бургас</location>
+					 <id>4</id>
+					 <beertype>Жива Бира</beertype>
+					 <beertypeId>1</beertypeId>
+					 <region>Югоизточен регион</region>
+					 <regionId>204</regionId>
+					 <telephone>087 932 1333</telephone>
+					 <year>2015</year>
+					 <beerRange>19</beerRange>
+					 <site href="https://www.pivovarnata.bg/">www.pivovarnata.bg</site>
+				</breweryInformation>
+				<beerList>
+					<beer>Veritas Лагер</beer>
+					<beer>Veritas Пшенична</beer>
+					<beer>Veritas Червена</beer>
+					<beer>Veritas Тъмна</beer>
+					<beer>Veritas Амбър</beer>
+					<beer>IPA</beer>
+					<beer>Dark Vader</beer>
+					<beer>Veritas Velvetweizen</beer>
+					<beer>V-Development</beer>
+				</beerList>
+		 </brewery>
+		 <brewery>
+				<breweryInformation>
+					 <name>Бирария Блек Шийп</name>
+					 <location>Варна</location>
+					 <id>5</id>
+					 <beertype>Жива Бира</beertype>
+					 <beertypeId>1</beertypeId>
+					 <region>Североизточен регион</region>
+					 <regionId>203</regionId>
+					 <telephone>087 862 3426</telephone>
+					 <year>2005</year>
+					 <beerRange>62</beerRange>
+					 <site href="http://theblacksheep.bg/">www.theblacksheep.bg</site>
+				</breweryInformation>
+				<beerList>
+					<beer>Златна Варна тъмно</beer>
+					<beer>Златна Варна амбър</beer>
+					<beer>Златна Варна светло</beer>
+					<beer>Гинес</beer>
+					<beer>Ердингер</beer>
+					<beer>Хайнекен</beer>
+				</beerList>
+		 </brewery>
+		 <brewery>
+				<breweryInformation>
+					 <name>Бар Котка и Мишка</name>
+					 <location>Пловдив</location>
+					 <id>6</id>
+					 <beertype>Крафт Бира</beertype>
+					 <beertypeId>2</beertypeId>
+					 <region>Южен централен регион</region>
+					 <regionId>205</regionId>
+					 <telephone>0878 313 995</telephone>
+					 <year>2015</year>
+					 <beerRange>113</beerRange>
+					 <site href="https://catandmouse.bg/">www.catandmouse.bg</site>
+				</breweryInformation>
+				<beerList>
+					<beer>Cat and Mouse</beer>
+					<beer>White stork</beer>
+					<beer>Hills</beer>
+					<beer>Vitoshko lale</beer>
+					<beer>Trima i dvama</beer>
+					<beer>Westmalle triple</beer>
+					<beer>Kwak</beer>
+					<beer>Orval</beer>
+					<beer>Lindemans</beer>
+					<beer>Estrella</beer>
+				</beerList>
+		 </brewery>
+		 <brewery>
+				<breweryInformation>
+					 <name>Ейл Хаус</name>
+					 <location>София</location>
+					 <id>7</id>
+					 <beertype>Жива Бира</beertype>
+					 <beertypeId>1</beertypeId>
+					 <region>Югозападенпаден регион</region>
+					 <regionId>206</regionId>
+					 <telephone>0884 320 400</telephone>
+					 <year>2002</year>
+					 <beerRange>47</beerRange>
+					 <site href="http://www.alehouse.bg/">www.alehouse.bg</site>
+				</breweryInformation>
+				<beerList>
+					<beer>Живата бира</beer>
+					<beer>Hobgoblin</beer>
+					<beer>Leikeim Schwarzbier</beer>
+					<beer>Grolsch</beer>
+					<beer>AC/DC</beer>
+					<beer>Scarecrow</beer>
+					<beer>Cocker Hoop</beer>
+					<beer>Belgian Kriek</beer>
+					<beer>Pilsner Urquell</beer>
+					<beer>Blance de Bruxelles</beer>
+				</beerList>
+		 </brewery>
+		 <brewery>
+				<breweryInformation>
+					 <name>Бирария Jägerhof</name>
+					 <location>Пловдив</location>
+					 <id>8</id>
+					 <beertype>Жива Бира</beertype>
+					 <beertypeId>1</beertypeId>
+					 <region>Южен централен регион</region>
+					 <regionId>205</regionId>
+					 <telephone>088 520 6666</telephone>
+					 <year>2013</year>
+					 <beerRange>3</beerRange>
+					 <site href="https://jagerhof.bg/">www.jagerhof.bg</site>
+				</breweryInformation>
+				<beerList>
+					<beer>Jägerhof Hell</beer>
+					<beer>Jägerhof Shwarz</beer>
+					<beer>Jägerhof Weiss</beer>
+				</beerList>
+		 </brewery>
+		  <brewery>
+				<breweryInformation>
+					 <name>Пиво Варна</name>
+					 <location>Варна</location>
+					 <id>9</id>
+					 <beertype>Жива Бира</beertype>
+					 <beertypeId>1</beertypeId>
+					 <region>Североизточен регион</region>
+					 <regionId>203</regionId>
+					 <telephone>088 830 8377</telephone>
+					 <year>2018</year>
+					 <beerRange>8</beerRange>
+					 <site href="http://pivo-varna.com/">www.pivo-varna.com</site>
+				</breweryInformation>
+				<beerList>
+					<beer>Leffe Blond</beer>
+					<beer>Leffe Brune</beer>
+					<beer>Жива бира LUC'S Кехлибар наливна</beer>
+					<beer>Primator Premium</beer>
+					<beer>Primator English Pale Ale</beer>
+					<beer>Primator Double</beer>
+					<beer>Bernard Lager</beer>
+				</beerList>
+		 </brewery>
+		 <brewery>
+				<breweryInformation>
+					 <name>Бирария Сити Пъб</name>
+					 <location>Велико Търново</location>
+					 <id>10</id>
+					 <beertype>Жива Бира</beertype>
+					 <beertypeId>1</beertypeId>
+					 <region>Северен централен регион</region>
+					 <regionId>202</regionId>
+					 <telephone>062 637 824</telephone>
+					 <year>2004</year>
+					 <beerRange>22</beerRange>
+				</breweryInformation>
+				<beerList>
+					<beer>Жива бира</beer>
+					<beer>Гинес</beer>
+					<beer>Гролш</beer>
+					<beer>Болярка светло</beer>
+					<beer>Загорка Фюжън</beer>
+					<beer>Калтенберг специално</beer>
+					<beer>Столично наливна</beer>
+					<beer>Болярка наливна</beer>
+					<beer>Хайнекен</beer>
+				</beerList>
+		 </brewery>
+		 <brewery>
+				<breweryInformation>
+					 <name>Бирария Трявна</name>
+					 <location>Трявна</location>
+					 <id>11</id>
+					 <beertype>Жива Бира</beertype>
+					 <beertypeId>1</beertypeId>
+					 <region>Северен централен регион</region>
+					 <regionId>202</regionId>
+					 <telephone>067 763 727</telephone>
+					 <year>2008</year>
+					 <beerRange>15</beerRange>
+					 <site href="http://lucs.tryavna.biz/">www.lucs.tryavna.biz</site>
+				</breweryInformation>
+				<beerList>
+					<beer>Светло</beer>
+					<beer>Кехлибар</beer>
+					<beer>Тъмно</beer>
+					<beer>Плодова</beer>
+				</beerList>
+		 </brewery>
+		 <brewery>
+				<breweryInformation>
+					 <name>Бирария Тангра</name>
+					 <location>Русе</location>
+					 <id>12</id>
+					 <beertype>Крафт Бира</beertype>
+					 <beertypeId>2</beertypeId>
+					 <region>Северен централен регион</region>
+					 <regionId>202</regionId>
+					 <telephone>088 844 4864</telephone>
+					 <year>2013</year>
+					 <beerRange>43</beerRange>
+				</breweryInformation>
+				<beerList>
+					<beer>Trooper</beer>
+					<beer>Диво Пиво</beer>
+					<beer>Tucher Pilsener</beer>
+					<beer>Konrad 11 Lezak</beer>
+					<beer>Uiltje Greatful Deaf India Steam Ale</beer>
+					<beer>Camba 2 Sour</beer>
+					<beer>Elav Techno Double IPA</beer>
+					<beer>Primator IPA</beer>
+				</beerList>
+		 </brewery>
+		 <brewery>
+				<breweryInformation>
+					 <name>Papa Beer</name>
+					 <location>Бургас</location>
+					 <id>13</id>
+					 <beertype>Крафт Бира</beertype>
+					 <beertypeId>2</beertypeId>
+					 <region>Югоизточен регион</region>
+					 <regionId>204</regionId>
+					 <telephone>088 721 0506</telephone>
+					 <year>2016</year>
+					 <beerRange>79</beerRange>
+				</breweryInformation>
+				<beerList>
+					<beer>Ailyak</beer>
+					<beer>Mikkeller</beer>
+					<beer>Divo Pivo</beer>
+					<beer>Flying Dog</beer>
+					<beer>Rogue</beer>
+					<beer>Bell's</beer>
+					<beer>Basi Kefa</beer>
+					<beer>Bql Shtark</beer>
+					<beer>La Trappe</beer>
+				</beerList>
+		</brewery>
+	</breweryList>
+	<beertypeList>
+		<beertypeInfo>
+			<beertypeName>Жива Бира</beertypeName>
+			<type typeRef="Жива Бира" typeIdRef="1"/>
+		</beertypeInfo>
+		<beertypeInfo>
+			<beertypeName>Крафт Бира</beertypeName>
+			<type typeRef="Крафт Бира" typeIdRef="2"/>
+		</beertypeInfo>
+	</beertypeList>
+	<regionList>
+		<regionInfo>
+			<regionName>Северен централен регион</regionName>
+			<reg regRef="Северен централен регион" regIdRef="202"/>
+		</regionInfo>
+		<regionInfo>
+			<regionName>Североизточен регион</regionName>
+			<reg regRef="Североизточен регион" regIdRef="203"/>
+		</regionInfo>
+		<regionInfo>
+			<regionName>Югоизточен регион</regionName>
+			<reg regRef="Югоизточен регион" regIdRef="204"/>
+		</regionInfo>
+		<regionInfo>
+			<regionName>Южен централен регион</regionName>
+			<reg regRef="Южен централен регион" regIdRef="205"/>
+		</regionInfo>
+		<regionInfo>
+			<regionName>Югозападен регион</regionName>
+			<reg regRef="Югозападен регион" regIdRef="206"/>
+		</regionInfo>
+	</regionList>	
+</breweriesInBG>
